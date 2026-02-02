@@ -33,7 +33,9 @@ created_by = "AI Campus - Agentic AI Research Community"
 
 ```
 
-[Python + FastAPI](https://public-files.gumroad.com/lo6sv6k9e3davf59vq0l3ku99r1a)
+
+![Alt text](https://public-files.gumroad.com/lo6sv6k9e3davf59vq0l3ku99r1a)
+
 
 ## 🚀 Quick Start
 
@@ -232,7 +234,7 @@ Recommendation: Start with ollama run deepseek-r1:7b. If the "thinking" steps ma
 #################################
 
 
-# PROMPT GUID
+# PROMPT GUIDE
 
 The following prompt uses Chain-of-Thought (CoT) and Strict Grounding patterns optimized for reasoning models like OpenAI's GPT-4o. 
 Recommended HR System Prompt (2026)
