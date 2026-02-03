@@ -1,10 +1,9 @@
-# Agentic AI-Powered HR Automation with Python + LangGraph + FastAPI
+# Agentic AI-Powered HR Automation<br>Instant CV Intelligence for Modern Hiring Teams<br>Python + LangGraph + FastAPI
 
-> Automated CV review and candidate evaluation system using LangChain, LangGraph, LlamaIndex, FastAPI.
-> Instant CV Intelligence for Modern Hiring Teams
-> OR For Anyone
-> Interested In Learning Agentic AI for a real-world practical use-case
-> By AICampus - Agentic AI Research Community
+For Anyone:<br>
+Interested In Learning Agentic AI for a real-world practical use-case<br><br>
+Automated CV review and candidate evaluation system using LangChain, LangGraph, LlamaIndex, FastAPI.<br>
+By AICampus - Agentic AI Research Community
 
 ## 🎯 Features
 
@@ -15,6 +14,31 @@
 - 📊 Automatic Google Sheets logging
 - 🚀 High-performance FastAPI with async support
 - ⭐ Data Analytics with web-based HR Dashaboard support for monitoring and visualization
+- ⭐ Real-time notifications for HR teams
+
+
+![Alt text](https://public-files.gumroad.com/uvk49z04hc08wbm3srvsu77lcpiv)
+
+<br><br>
+
+## Agentic AI-Powered HR Automation with Python + LangGraph Agentic Framework
+
+### 🛠️ Tech Stack
+
+| Category | Tools |
+| :--- | :--- |
+| **Agentic AI** | ![LangChain](https://img.shields.io) ![LangGraph](https://img.shields.io) ![LlamaIndex](https://img.shields.io) |
+| **Backend** | ![FastAPI](https://img.shields.io) ![Google APIs](https://img.shields.io) ![MongoDB](https://img.shields.io) |
+| **Frontend** | ![Next.js](https://img.shields.io) ![TypeScript](https://img.shields.io) ![TailwindCSS](https://img.shields.io) |
+
+### 🧠 LLM Providers
+![OpenAI GPT-4o](https://img.shields.io) ![Anthropic Claude](https://img.shields.io) ![Google Gemini](https://img.shields.io) ![Ollama Qwen](https://img.shields.io)
+
+> Created by **AICampus** - Agentic AI Research Community
+
+<br>
+<img width="1789" height="1043" alt="AI HR Automation - LangGraph" src="https://github.com/user-attachments/assets/c8699540-8ac4-457a-852d-d166c93d9963" />
+<br>
 
 ## 💰 Cost
 
@@ -22,36 +46,25 @@
 - 100 candidates ~ $0.15
 - 1,000 candidates under $5
 
+<img width="1778" height="963" alt="AI HR Automation - OpenAI GPT Usage" src="https://github.com/user-attachments/assets/c9928905-b0c6-4023-9f5e-20407c9d3f05" />
 
-![Alt text](https://public-files.gumroad.com/uvk49z04hc08wbm3srvsu77lcpiv)
-
-```python
-# Agentic AI-Powered HR Automation with Python + LangGraph Agentic Framework
-# Tech Stack
-tech_stack = ["LangChain", "LangGraph", "LlamaIndex", "FastAPI", "Google APIs", "Next.js", "Tpyescript", "TailwindCSS", "MongoDB"]
-llms_providers_options = ["OpenAI GPT-4o Reasoning Model", "Open-source Qwen-3 via Ollama", "Anthropic Claude", "Google Gemini"]
-
-created_by = "AI Campus - Agentic AI Research Community"
-
-```
-
-<img width="1789" height="1043" alt="AI HR Automation - LangGraph" src="https://github.com/user-attachments/assets/c8699540-8ac4-457a-852d-d166c93d9963" />
+<br>
 
 
 ### 📺 Watch the Video
 [![Watch the video](https://github.com/user-attachments/assets/ddeea993-8645-4ee2-a184-50bc629a5029)](https://www.youtube.com/watch?v=J6V18FWbaqY)
 
-
 -----------------------------------------------------------
+<br>
 
 ## 🚀 Quick Start
 
 Get the project complete source-code as zip file:
-[Backend AI Agent Workflow](https://aicampusmagazines.gumroad.com/l/gscdiq)
+[Backend AI Agent Workflow + Frontend HR Dashboard](https://aicampusmagazines.gumroad.com/l/gscdiq)
 
 ### 1. Installation
 ```bash
-# Clone or download the project
+# Download the complete project code [here](https://aicampusmagazines.gumroad.com/l/gscdiq) 
 cd ai-hr-automation
 
 # Install dependencies - Using uv dependency manager (Speed: 10–100x faster than pip), Solves nested dependencies issues for complex architectures like LangGraph
@@ -220,24 +233,25 @@ Context Window Comparison (2026)
 
 ## Model Choice
 Building an agentic HR automation system on a local machine requires balancing reasoning depth with the limitations of RAM. You must prioritize smaller, highly efficient models to ensure LangGraph agents can complete multi-step tasks without crashing.
+<br>
 Best Model Recommendation for 2026:
 
 For this specific HR evaluation use case on low hardware, DeepSeek-R1-Distill-Qwen-7B or Qwen3-7B-Instruct are the superior choices.
 
 - DeepSeek-R1-Distill-Qwen-7B (Primary Choice):
-Reasoning Capability: This is a "reasoning-first" model that uses chain-of-thought (CoT). For HR tasks, it will "think" through a candidate's qualifications before outputting a final score, similar to GPT-4o's internal reasoning.
-Fit: A 4-bit quantized version requires approximately 4.5GB to 5GB of memory. 
-LangGraph Performance: It is highly reliable for the structured output and "decisions" required in LangGraph nodes.
+Reasoning Capability: This is a "reasoning-first" model that uses chain-of-thought (CoT). For HR tasks, it will "think" through a candidate's qualifications before outputting a final score, similar to GPT-4o's internal reasoning.<br>
+Fit: A 4-bit quantized version requires approximately 4.5GB to 5GB of memory.<br> 
+LangGraph Performance: It is highly reliable for the structured output and "decisions" required in LangGraph nodes.<br>
 
 - Qwen3-7B-Instruct (Alternative):
-Reasoning Capability: Noted in 2026 as one of the most efficient models for tool-calling and structured data extraction (e.g., parsing a CV into JSON).
+Reasoning Capability: Noted in 2026 as one of the most efficient models for tool-calling and structured data extraction (e.g., parsing a CV into JSON).<br>
 Fit: Consumes roughly 4.8GB of memory in its standard 4-bit quantization, making it very fast for local testing on Intel Macs. 
 
 
-Avoid Large Models: Do not attempt to run 14B or 20B models. On small RAM with an Intel processor, these will offload too many layers to system memory, causing tokens-per-second to drop below 1–2, which is unusable for testing agent loops.
-Optimize Ollama Context: HR tasks involving long resumes require context. Limit your context window to 16,384 (16k) in your LangGraph configuration to prevent memory saturation on your i9 processor.
-LangGraph Integration: Use the Ollama Functions or Tool Calling wrappers in LangGraph. Qwen3-7B is specifically optimized for these "agentic" triggers in the 2026 library updates. 
-Recommendation: Start with ollama run deepseek-r1:7b. If the "thinking" steps make your agent loops too slow for local testing, switch to ollama run qwen3:7b for faster, direct instruction execution.
+Avoid Large Models: Do not attempt to run 14B or 20B models. On small RAM with an Intel processor, these will offload too many layers to system memory, causing tokens-per-second to drop below 1–2, which is unusable for testing agent loops.<br>
+Optimize Ollama Context: HR tasks involving long resumes require context. Limit your context window to 16,384 (16k) in your LangGraph configuration to prevent memory saturation on your i9 processor.<br>
+LangGraph Integration: Use the Ollama Functions or Tool Calling wrappers in LangGraph. Qwen3-7B is specifically optimized for these "agentic" triggers in the 2026 library updates.<br> 
+Recommendation: Start with ollama run deepseek-r1:7b. If the "thinking" steps make your agent loops too slow for local testing, switch to ollama run qwen3:7b for faster, direct instruction execution.<br>
 
 -----------------------------------------------------------
 
@@ -264,10 +278,10 @@ Step 4: Identify gaps where the CV fails to meet JD requirements.
 Step 5: Provide a final Evaluation Score (0-100) and a justification summary.
 
 
-Why this works for your setup:
-Chain-of-Thought (CoT): By forcing the model to list reasoning_steps first, you utilize the model’s limited reasoning capacity more effectively, reducing the likelihood of a "lazy" or incorrect final score.
-Structured Schema: LLLM models in 2026 are highly trained on JSON outputs. Using a clear JSON structure ensures your LangGraph nodes can parse the results programmatically without error.
-Confidence Scoring: Including a "Missing Skills" section forces the model to look for negatives, which counteracts the natural tendency of LLMs to be "agreeable" and over-rate candidates. 
+Why this works for your setup:<br>
+- Chain-of-Thought (CoT): By forcing the model to list reasoning_steps first, you utilize the model’s limited reasoning capacity more effectively, reducing the likelihood of a "lazy" or incorrect final score.
+- Structured Schema: LLLM models in 2026 are highly trained on JSON outputs. Using a clear JSON structure ensures your LangGraph nodes can parse the results programmatically without error.
+- Confidence Scoring: Including a "Missing Skills" section forces the model to look for negatives, which counteracts the natural tendency of LLMs to be "agreeable" and over-rate candidates. 
 
 
 -----------------------------------------------------------
