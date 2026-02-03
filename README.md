@@ -38,7 +38,7 @@ By AICampus - Agentic AI Research Community
 - ⭐ Candidate scoring (1-100) with detailed reasoning
 - 📊 Automatic Google Sheets logging
 - 🚀 High-performance FastAPI with async support
-- ⭐ Data Analytics with web-based HR Dashaboard support for monitoring and visualization
+- ⭐ Data Analytics with web-based HR Dashaboard support for management and visualization
 - ⭐ Real-time notifications for HR teams
 
 
@@ -46,9 +46,7 @@ By AICampus - Agentic AI Research Community
 
 <br><br>
 
-## Agentic AI-Powered HR Automation with Python + LangGraph Agentic Framework
-
-### 🛠️ Tech Stack
+## Agentic AI-Powered HR Automation + Web-based HR Dashboard
 
 ### 🛠️ Tech Stack
 
@@ -63,12 +61,20 @@ By AICampus - Agentic AI Research Community
 
 > Created by **AICampus** - Agentic AI Research Community
 
+
+### 🔧 Tech Features
+- AI-Based Data Extraction
+- Structured JSON outputs for reliable data parsing
+- Json Data Handling for minimize AI Model Tokens Cost. improve accuracy of results
+- Error handling with proper response codes
+- Timestamped records with direct CV links
+
 <br>
 <img width="1789" height="1043" alt="AI HR Automation - LangGraph" src="https://github.com/user-attachments/assets/c8699540-8ac4-457a-852d-d166c93d9963" />
 <br>
 
 ## 💰 Cost
-
+Cost per resume: 5,000 tokens × ($0.30 / 1,000,000) = $0.0015 per resume <br>
 - **$0.0015 per candidate** using GPT-4o-mini reasoning model
 - 100 candidates ~ $0.15
 - 1,000 candidates under $5
@@ -226,10 +232,22 @@ DOCUMENTATION.md
 
 
 ## Why uv package manager for Python3 projects
-Automatic Setup:
+- Speed: 10–100x faster than pip. Solves nested dependencies and version conflict issues for complex architectures like LangGraph<br>
+Automatic Setup:<br>
 - For most modern workflows, you do not need to create or activate a virtual environment manually. 
 - On-Demand Creation: When you run a command like uv run or uv sync in a project directory, uv checks for a virtual environment (typically in a .venv folder). If one doesn't exist, uv will automatically create it and install the required dependencies before executing your command.
 - Automatic Updates: If you add a dependency using uv add <package>, uv updates your pyproject.toml, synchronizes the .venv, and updates the uv.lock file all in one step. 
+
+
+## 🧠 Why OpenAI GPT-4o-mini Is a good option?
+
+- Structured extraction
+- Deterministic JSON output
+- Fast latency
+- Very low cost
+- HR-grade reasoning quality
+- Scales cleanly in n8n
+
 
 ## Why LangChain and LangGraph for Agentic AI
 We chose LangChain because its ecosystem offers mature abstractions for prompt handling and tool invocation. Its modular design allowed the team to integrate multiple model providers and build on a standard interface instead of rolling out their own.
