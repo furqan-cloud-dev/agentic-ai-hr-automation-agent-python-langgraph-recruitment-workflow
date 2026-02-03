@@ -68,13 +68,14 @@ By AICampus - Agentic AI Research Community
 - Json Data Handling for minimize AI Model Tokens Cost. improve accuracy of results
 - Error handling with proper response codes
 - Timestamped records with direct CV links
+- Multi-LLM Support: OpenAI GPT, Anthropic Claude, Google Gemini, Opensource Qwen3 via Ollama
 
 <br>
 <img width="1789" height="1043" alt="AI HR Automation - LangGraph" src="https://github.com/user-attachments/assets/c8699540-8ac4-457a-852d-d166c93d9963" />
 <br>
 
 ## 💰 Cost
-Cost per resume: 5,000 tokens × ($0.30 / 1,000,000) = $0.0015 per resume <br>
+5,000 tokens × ($0.30 / 1,000,000) = $0.0015 per resume <br>
 - **$0.0015 per candidate** using GPT-4o-mini reasoning model
 - 100 candidates ~ $0.15
 - 1,000 candidates under $5
@@ -205,8 +206,10 @@ async def candidate_job_application_submit(
     return response
 ```
 
-### HR Dashboard - Next.js-16 Front-end Application
+### HR Dashboard - Front-end Web Application
+Next.js 16 + Typescript
 ```bash
+npm install
 npm run dev
 
 ```
@@ -232,9 +235,8 @@ DOCUMENTATION.md
 
 
 ## Why uv package manager for Python3 projects
-- Speed: 10–100x faster than pip. Solves nested dependencies and version conflict issues for complex architectures like LangGraph<br>
-Automatic Setup:<br>
-- For most modern workflows, you do not need to create or activate a virtual environment manually. 
+- Speed: 10–100x faster than pip. Solves nested dependencies and version conflict issues for complex architectures like LangGraph
+- Automatic Setup:For most modern workflows, you do not need to create or activate a virtual environment manually. 
 - On-Demand Creation: When you run a command like uv run or uv sync in a project directory, uv checks for a virtual environment (typically in a .venv folder). If one doesn't exist, uv will automatically create it and install the required dependencies before executing your command.
 - Automatic Updates: If you add a dependency using uv add <package>, uv updates your pyproject.toml, synchronizes the .venv, and updates the uv.lock file all in one step. 
 
@@ -243,10 +245,10 @@ Automatic Setup:<br>
 
 - Structured extraction
 - Deterministic JSON output
-- Fast latency
+- Fast response time
 - Very low cost
 - HR-grade reasoning quality
-- Scales cleanly in n8n
+- Scales cleanly for large input tokens
 
 
 ## Why LangChain and LangGraph for Agentic AI
@@ -334,7 +336,7 @@ Why this works for your setup:<br>
 # AI-Powered HR Automation with LangGraph
 ## Complete CV Review to Candidate Evaluation System
 
-### Developed By AICampus - Gateway for future AI research & learning
+> Developed By AICampus | Gateway for future AI research & learning
 
 -----------------------------------------------------------
 
