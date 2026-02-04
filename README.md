@@ -41,8 +41,10 @@ By AICampus - Agentic AI Research Community
 - ⭐ Data Analytics with web-based HR Dashaboard support for management and visualization
 - ⭐ Real-time notifications for HR teams
 
+<img width="1691" height="1000" alt="Agentic AI HR Automation" src="https://github.com/user-attachments/assets/93257061-8520-4853-8991-0501a3146e64" /><br>
 
-![Alt text](https://public-files.gumroad.com/uvk49z04hc08wbm3srvsu77lcpiv)
+<img width="1602" height="1027" alt="AI HR Automation - 3" src="https://github.com/user-attachments/assets/d734715a-d11d-4f3d-86b3-e403624b3933" />
+
 
 <br><br>
 
@@ -73,7 +75,8 @@ By AICampus - Agentic AI Research Community
 
 ### Automation Workflow
 
-<img width="1536" height="1024" alt="AI HR Automation Workflow" src="https://github.com/user-attachments/assets/852bae0a-28e2-4249-8493-009693b4d2a1" />
+<img width="1536" height="1024" alt="AI HR Automation Workflow" src="https://github.com/user-attachments/assets/d6c6b065-25fc-4832-875c-63d6cb1cb388" />
+
 
 
 
