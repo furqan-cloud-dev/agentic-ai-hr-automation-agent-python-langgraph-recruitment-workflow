@@ -96,7 +96,7 @@ By AICampus - Agentic AI Research Community
 
 
 ### 📺 Watch the Video
-[![Watch the video](https://github.com/user-attachments/assets/ddeea993-8645-4ee2-a184-50bc629a5029)](https://www.youtube.com/watch?v=J6V18FWbaqY)
+[![Watch the video](https://github.com/user-attachments/assets/ddeea993-8645-4ee2-a184-50bc629a5029)](https://www.youtube.com/watch?v=CqEhWpQzMHU)
 
 -----------------------------------------------------------
 <br>
